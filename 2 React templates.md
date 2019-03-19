@@ -5,7 +5,7 @@ In this step we will have an intro into JSX templates and how we can show data.
 1. First consider the following JS object:  
     ```javascript
     const app = {
-        title: 'Todo's app',
+        title: 'Todo\'s app',
         subtitle: 'Getting things done, made easy',
         todos: [
             'Make lunch',
@@ -17,7 +17,7 @@ In this step we will have an intro into JSX templates and how we can show data.
 2. Please use this object and show its data using JSX. You can do so by only modifying the 'src/app.js' file. 
     Here you can create a JSX template with the following structure:
     
-    ```javascript
+    ```html
     <div>
         <h1>---title---</h1>
         <p>---subtitle---</p>
