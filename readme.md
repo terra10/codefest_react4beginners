@@ -1,4 +1,4 @@
-#React for beginners
+# React for beginners
 
 Hello and welcome to the react for beginners workshop. 
 We will be creating a Todos app with React. 
@@ -7,7 +7,7 @@ We will do this in a number of steps. For each of these steps a solution will be
 
 Our application and starting point can be found in the "app" folder.
 
-####The steps we will be using are as follows.
+#### The steps we will be using are as follows.
 
 1. Setup
 2. React templates and handlebars

@@ -65,7 +65,7 @@ ReactDOM.render(<App />, document.getElementById('app'));
 To nest components, use the html style "MyName" component in the render function of the "App" component. 
 Please note the render method must always return a single html root component. You can see this in the "MyName" component. It will return a single div containing two paragraph tags.
 
-##Properties
+## Properties
 You can pass date from a parent to a child component using properties. This is a one-way street, you can only pass data from the parent to the child, not the other way around.  
 Consider the following example:  
 ```javascript
@@ -98,7 +98,7 @@ The main point here is that properties are read-only. A component should never m
 
 For more information about the topics we have covered until now, have a look at the documentation: https://reactjs.org/docs/components-and-props.html
 
-##State
+## State
 Now this is where the magic happens. The concept of state is similar to properties, however it is designed to be used to contain the component state. One of the bonusses of
 using component state is that when you modify the state, the component automatically rerenders for you. You do have to follow a number of conventions though, the following example will cover all of these:  
 ```javascript
@@ -256,7 +256,7 @@ this.setState((prevState) => {
 })
 ```
 
-##Passing calling methods on parent components
+## Passing calling methods on parent components
 Please consider the following example: 
 ```javascript
 class App extends React.Component {
@@ -410,7 +410,7 @@ Then you can simply return the JSX template and use the props argument. (no need
 
 Right now we have a highly object based an performant application. For more info have a look at the docs: https://reactjs.org/docs/state-and-lifecycle.html
 
-##Assignment
+## Assignment
 At the start of this step we have commented out our "Todo's" app. Your assignment will be to refactor this app into React classes and functional components.
 A suggestion would be to create the following components:
 
