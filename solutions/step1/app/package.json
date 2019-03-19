@@ -1,0 +1,16 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "An awesome todo app created in react",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mhjmaas",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
