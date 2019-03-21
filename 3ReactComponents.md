@@ -185,7 +185,7 @@ The last piece of code is setting the initial state with default values. We need
             <div>
                 Hello world!
                 <MyName name={this.state.name} age={this.state.age} />
-                <form onSubmit={this.onSubmitName}> <!-- here we are referencing the onSubmit method, note the absence of parenthesis -> ()-->
+                <form onSubmit={this.onSubmitName}> 
                     <input name="name" type="text" />
                     <button type="submit">Set name</button>
                 </form>
