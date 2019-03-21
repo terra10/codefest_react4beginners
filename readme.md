@@ -17,4 +17,4 @@ Our application and starting point can be found in the "app" folder.
 
 So without further ado, lets dive right in.
 
-**Please proceed to the next readme: [Setup](1 setup.md)** 
+Please proceed to the next readme: [Setup](1 setup.md)
