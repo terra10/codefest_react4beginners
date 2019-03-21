@@ -12,7 +12,7 @@ We will use npm to setup these dependencies and any others we might need along t
 1. First, make sure you have installed npm.
 2. Initialize the app directory using "npm init"
 3. Now we have our project setup and ready to include react. For now we will be including the libraries from the internet. 
-Please add the following snippet above the existing "app.js" script tag in the body.  
+Please add the following snippet above the existing "app.js" script tag in the body. (in the "public/index.html" file)  
 `<script src="https://unpkg.com/react@16.0.0/umd/react.development.js">`  
 `</script><script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>`
      
