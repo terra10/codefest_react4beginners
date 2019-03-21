@@ -66,7 +66,7 @@ To nest components, use the html style "MyName" component in the render function
 Please note the render method must always return a single html root component. You can see this in the "MyName" component. It will return a single div containing two paragraph tags.
 
 ## Properties
-You can pass date from a parent to a child component using properties. This is a one-way street, you can only pass data from the parent to the child, not the other way around.  
+You can pass data from a parent to a child component using properties. This is a one-way street, you can only pass data from the parent to the child, not the other way around.  
 Consider the following example:  
 ```javascript
 class App extends React.Component {
@@ -128,7 +128,7 @@ class App extends React.Component {
             <div>
                 Hello world!
                 <MyName name={this.state.name} age={this.state.age} />
-                <form onSubmit={this.onSubmitName}> <!-- here we are referencing the onSubmit method, note the absence of parenthesis -> ()-->
+                <form onSubmit={this.onSubmitName}> 
                     <input name="name" type="text" />
                     <button type="submit">Set name</button>
                 </form>
