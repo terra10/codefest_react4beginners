@@ -21,7 +21,7 @@ Install the dependencies "@babel/core", "@babel/preset-env" and "@babel/preset-r
 5. If you do not have babel installed please do so using npm with the command: "npm install --save-dev @babel/core @babel/cli" 
 6. We will be using live-server to to live reload with code changes as well as hosting our application. Install with the following command "npm install live-server -g".
 7. Open a terminal window or command prompt and run from the 'app' folder:  
-    `babel src/app.js --out-file=public/scripts/app.js --presets=@babel/env,@babel/react --watch`  
+    `babel src/app.js --out-file=public/scripts/app.js --presets=@babel/env,@babel/react --watch`  You will need to keep this command running, it will print nothing when everything is fine.
 This will transpile the source "src/app.js" file to the destination "public/script/app.js" and will make sure to use the react preset so babel knows what to do with react code. Also it will watch for changes
 8. Open a new terminal window or command prompt and run from the 'app' folder: 
 `live-server public`  
