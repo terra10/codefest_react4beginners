@@ -27,4 +27,4 @@ This will transpile the source "src/app.js" file to the destination "public/scri
 `live-server public`  
 this will start a server and host your 'public' folder. Every change you now make to the source files will be automatically shown in the browser.
 If everything goes right you can open a browser window and go to the url which is shown in your console. If you see "Hello world", everything is fine
-9. Please proceed to [React templates](2 React templates.md)
+9. Please proceed to [React templates](2ReactTemplates.md)

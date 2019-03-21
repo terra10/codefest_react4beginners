@@ -79,7 +79,7 @@ In this step we will have an intro into JSX templates and how we can show data.
     ```
 6. For an extra assignment, can you add the ability to complete todo's?
 6. A quick note, it seems like it is increadibly inefficent to redraw the entire template when a tiny thing changes. However React will only change the DOM when it actually has changed. Therefor it is important to add a "key" option to the list so it can identify individual items in the list.
-7. Congrats, you've created your first fully fledged react application. However this application could be much more structured by using a component based application architecture. Please proceed to [React components](3 React components.md)
+7. Congrats, you've created your first fully fledged react application. However this application could be much more structured by using a component based application architecture. Please proceed to [React components](3ReactComponents.md)
     
     
     
