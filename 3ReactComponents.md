@@ -428,4 +428,6 @@ A suggestion would be to create the following components:
 Try to save the todo's to the local storage to make sure they are saved even after page refreshes.  
 You need to use the lifecycle methods "componentDidMount" and "componentDidUpdate" as described here: https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class  
 You can set localStorage using "localStorage.setItem(key, value)" and get it using "localStorage.getItem(key)". 
-The value for localstorage must be a string, so you can serialize and deserialize your state using JSON.stringify(state) and JSON.parse(serializedState)
+The value for localstorage must be a string, so you can serialize and deserialize your state using JSON.stringify(state) and JSON.parse(serializedState)  
+  
+This concludes the workshop for now. I'm planning to create a couple more steps which you will need to do to create production builds, including styling etc.

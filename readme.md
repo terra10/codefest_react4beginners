@@ -12,8 +12,6 @@ Our application and starting point can be found in the "app" folder.
 1. Setup
 2. React templates and handlebars
 3. React components, functional stateless components and data binding
-4. Styling
-5. Production builds
 
 So without further ado, lets dive right in.
 
